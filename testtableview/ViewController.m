@@ -16,6 +16,8 @@
 
 {
     NSArray *tableData;
+    
+    NSArray *imageArray;
 }
 
 - (void)viewDidLoad {
@@ -26,7 +28,10 @@
 
 
     tableData = [NSArray arrayWithObjects:@"Christ Redeemer- Brazil ", @"Great Wall of China- China", @"Machu Picchu -Peru",@"Petra- Jordan",@"Pyramid at Chichén Itzá - Yucatan Peninsula-Mexico", @"Roman Colosseum- Rome- Italy",@"Taj Mahal- Agra - India",   nil];
-}
+    
+    
+    imageArray = [NSArray arrayWithObjects:@"greatwall_461.jpg", @"petra_461.jpg", @"pyramid_461.jpg", @"christ_461.jpg", @"machupicchu_461.jpg",@"colosseum_461.jpg", @"itza_461.jpg",   nil];
+    }
 
 
 - (void)didReceiveMemoryWarning {
@@ -50,7 +55,9 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
-    cell.imageView.image=[UIImage imageNamed:@"christ_461.jpg"];
+    
+    cell.imageView.image = [UIImage imageNamed:[imageArray objectAtIndex:indexPath.row]];
+    
     cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
     return cell;
     

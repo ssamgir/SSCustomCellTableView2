@@ -17,6 +17,11 @@
 		E775947D1D716CD600ED38F9 /* testtableviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E775947C1D716CD600ED38F9 /* testtableviewUITests.m */; };
 		E775948B1D7177E200ED38F9 /* christ_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E775948A1D7177E200ED38F9 /* christ_461.jpg */; };
 		E775948D1D7177EA00ED38F9 /* greatwall_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E775948C1D7177EA00ED38F9 /* greatwall_461.jpg */; };
+		E775948F1D71CF9100ED38F9 /* machupicchu_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E775948E1D71CF9100ED38F9 /* machupicchu_461.jpg */; };
+		E77594921D71CF9A00ED38F9 /* petra_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77594901D71CF9A00ED38F9 /* petra_461.jpg */; };
+		E77594931D71CF9A00ED38F9 /* pyramid_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77594911D71CF9A00ED38F9 /* pyramid_461.jpg */; };
+		E77594961D71CFB000ED38F9 /* colosseum_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77594941D71CFB000ED38F9 /* colosseum_461.jpg */; };
+		E77594971D71CFB000ED38F9 /* itza_461.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77594951D71CFB000ED38F9 /* itza_461.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		E775947E1D716CD600ED38F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E775948A1D7177E200ED38F9 /* christ_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = christ_461.jpg; sourceTree = "<group>"; };
 		E775948C1D7177EA00ED38F9 /* greatwall_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall_461.jpg; sourceTree = "<group>"; };
+		E775948E1D71CF9100ED38F9 /* machupicchu_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = machupicchu_461.jpg; sourceTree = "<group>"; };
+		E77594901D71CF9A00ED38F9 /* petra_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petra_461.jpg; sourceTree = "<group>"; };
+		E77594911D71CF9A00ED38F9 /* pyramid_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pyramid_461.jpg; sourceTree = "<group>"; };
+		E77594941D71CFB000ED38F9 /* colosseum_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum_461.jpg; sourceTree = "<group>"; };
+		E77594951D71CFB000ED38F9 /* itza_461.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itza_461.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +122,12 @@
 				E77594601D716CD600ED38F9 /* Main.storyboard */,
 				E77594631D716CD600ED38F9 /* Assets.xcassets */,
 				E775948C1D7177EA00ED38F9 /* greatwall_461.jpg */,
+				E77594901D71CF9A00ED38F9 /* petra_461.jpg */,
+				E77594911D71CF9A00ED38F9 /* pyramid_461.jpg */,
 				E775948A1D7177E200ED38F9 /* christ_461.jpg */,
+				E775948E1D71CF9100ED38F9 /* machupicchu_461.jpg */,
+				E77594941D71CFB000ED38F9 /* colosseum_461.jpg */,
+				E77594951D71CFB000ED38F9 /* itza_461.jpg */,
 				E77594651D716CD600ED38F9 /* LaunchScreen.storyboard */,
 				E77594681D716CD600ED38F9 /* Info.plist */,
 				E77594571D716CD600ED38F9 /* Supporting Files */,
@@ -253,7 +268,12 @@
 				E77594671D716CD600ED38F9 /* LaunchScreen.storyboard in Resources */,
 				E77594641D716CD600ED38F9 /* Assets.xcassets in Resources */,
 				E77594621D716CD600ED38F9 /* Main.storyboard in Resources */,
+				E775948F1D71CF9100ED38F9 /* machupicchu_461.jpg in Resources */,
 				E775948D1D7177EA00ED38F9 /* greatwall_461.jpg in Resources */,
+				E77594931D71CF9A00ED38F9 /* pyramid_461.jpg in Resources */,
+				E77594971D71CFB000ED38F9 /* itza_461.jpg in Resources */,
+				E77594921D71CF9A00ED38F9 /* petra_461.jpg in Resources */,
+				E77594961D71CFB000ED38F9 /* colosseum_461.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
